@@ -12,6 +12,7 @@ const ProductTag = require('./ProductTag');
 
 // Tags belongToMany Products (through ProductTag)
 
+// export as an object to capture all the variable to be used in models
 module.exports = {
   Product,
   Category,
