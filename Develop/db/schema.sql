@@ -3,7 +3,7 @@ DROP DATABASE IF EXISTS ecommerce_db;
 -- CREATE DATABASE
 CREATE DATABASE ecommerce_db;
 
-\c employee_db;
+\c ecommerce_db;
 
 
 CREATE TABLE category (
@@ -21,7 +21,7 @@ CREATE TABLE product (
 );
 
 CREATE TABLE tag (
-    id SERIAL PRIMARY KEY INT NOT NULL,
+    id SERIAL PRIMARY KEY,
     tag_name VARCHAR(255) NOT NULL
 );
 
