@@ -3,7 +3,7 @@ const routes = require('./routes');
 // import sequelize connection
 
 const app = express();
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 3004;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
